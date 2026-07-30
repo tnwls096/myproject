@@ -20,6 +20,7 @@ import plotly.express as px
 # 0. 페이지 기본 설정
 # ------------------------------------------------------------
 st.set_page_config(page_title="한눈에 보는 전국 인구 지표 지도", page_icon="🗺️", layout="wide")
+st.caption("💬 원하는 인구 지표(고령화율·유소년비율·소멸위험지수·생산인구)를 선택하면 지도가 실시간으로 전환됩니다.")
 
 # 데이터가 있는 인터넷 주소 (변하지 않으니 상수로 적어 둠)
 POP_URL = "https://raw.githubusercontent.com/greatsong/modudata/main/data/population_yearly.csv.gz"
